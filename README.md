@@ -1,1 +1,16 @@
-# -Password-Generato
+# Password Generator
+
+Простой генератор случайных паролей с настраиваемой сложностью.
+
+## Возможности
+- Задание длины пароля (по умолчанию 12)
+- Включение/отключение цифр
+- Включение/отключение специальных символов
+- Поддержка командной строки
+
+## Запуск
+
+### Python
+```bash
+python password_generator.py -l 16
+python password_generator.py --no-digits --no-special -l 10
